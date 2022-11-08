@@ -2,7 +2,7 @@ import './Container.css'
 
 const Container = (props) => {
     return (
-        <div>{props.children}</div>
+        <div className='container main-container'>{props.children}</div>
     )
 }
 
