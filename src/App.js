@@ -1,12 +1,12 @@
+import './App.css'
 
-
-import {Header,Container,Footer,components} from './components/index'
+import {Header,Footer,Container} from './components/index'
 
 const App = () => {
     return (
         <>
-        <Header />
-        <Container />
+        <Header  />
+        <Container>Content</Container>
         <Footer />
         </>
     );
