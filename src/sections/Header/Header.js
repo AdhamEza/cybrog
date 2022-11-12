@@ -1,7 +1,7 @@
 import './Header.css'
 
 import logo from '../../assets/images/logo.png'
-import NavItem, {NavItemDropDown} from '../NavItem/NavItem'
+import NavItem, {NavItemDropDown} from '../../components/NavItem/NavItem'
 const Header = () => {
     return(
         <div className="navbar navbar-expand-md navbar-dark cyborg-navbar">

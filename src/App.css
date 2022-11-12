@@ -23,3 +23,11 @@ body{
     background-color: var(--color-darkest);
     font-family: var(--font-faimly-primary);
 }
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
