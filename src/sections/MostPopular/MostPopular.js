@@ -1,25 +1,23 @@
 import './MostPopular.css'
-import {Card} from '../../components/index'
-
+import {Card,SectionHeader,SectionWrapper} from '../../components/index'
+import MostPopularData from '../../Data/MostPopularData'
 
 const MostPopular = () => {
-  return (
-    <div className='section-wrapper'>
-      <div className='section-header'>
-        <h4>Most Popular</h4>
-      </div>
-      <div className='most-popular-items'>
 
-        <Card title="Fortnite"  category="Sandbox"   rate="3.8"  download="2.3M" />
-        <Card title="Pubg"      category="Stream-X"   rate="4,8"  download="1.1M"/>
-        <Card title="Dota2"     category="Legendary"   rate="2.7"  download="5.3M"/>
-        <Card title="CS-Go"     category="Battle S"   rate="3.9"  download="6.1M"/>
-      
-      
+const cards = MostPopularData.map(card => {
+    return <Card key={card.id} image={card.image} title={card.title} category={card.category} rate={card.rate} download={card.download}/>
+  })
+  return (
+    
+    <SectionWrapper>
+    <SectionHeader>Most Popular</SectionHeader>
+      <div className='most-popular-items'>
         
-        
+        {cards}
+
       </div>
-    </div>
+  </SectionWrapper>
+  
   )
 }
 

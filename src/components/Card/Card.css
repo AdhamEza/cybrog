@@ -1,5 +1,5 @@
 .most-popular-item {
-    flex: 1
+    flex: 1 25%
 }
 
 .card-wrapper {
@@ -24,4 +24,5 @@
 
 .most-popular-item-title {
     font-size: 14px;
+    line-height: 1.5rem; 
 }
