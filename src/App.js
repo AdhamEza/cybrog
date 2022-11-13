@@ -7,14 +7,13 @@ import {Footer,Header,Hero,MostPopular,GamingLibrary} from './sections/index'
 const App = () => {
     return (
         <>
-        <Header  />
+        <Header/>
         <Container>
-            <Hero/>
-            <MostPopular/>
-            <GamingLibrary/>
+        <Hero/>
+        <MostPopular/>
+        <GamingLibrary/>
         </Container>
-        
-        { /*<Footer /> */}
+        <Footer/>
         </>
     );
 }
