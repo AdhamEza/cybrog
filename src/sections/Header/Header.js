@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 import './Header.css'
 
 import logo from '../../assets/images/logo.png'
@@ -6,7 +8,8 @@ const Header = () => {
     return(
         <div className="navbar navbar-expand-md navbar-dark cyborg-navbar">
         <div className="container">
-            <a href="#" className="navbar-brand">
+            
+            <a href="/" className="navbar-brand">
                 <img src={logo} alt="" />
             </a>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainmenu">
@@ -14,17 +17,24 @@ const Header = () => {
             </button>
             <div className="collapse navbar-collapse" id="mainmenu">
                 <ul className="navbar-nav ms-auto">
-                    <li className="nav-item"><a href="#hero" className="nav-link">Home</a></li>
-                    <li className="nav-item"><a href="#features" className="nav-link">Browse</a></li>
+
+                    <NavItem><Link to="/" className="nav-link">Home</Link></NavItem>
+
+                    <NavItem><a href="/#" className="nav-link">Browse</a></NavItem>
+
                     <li className="nav-item dropdown">
-                        <a href="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Details</a>
+                        <a href="/#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Details</a>
+
                         <ul className="dropdown-menu">
-                            <li><a href="#learn" className="dropdown-item">Fortnite</a></li>
-                            <li><a href="#next" className="dropdown-item">Call of Duty</a></li>
+                            <li><a href="/#" className="dropdown-item">Fortnite</a></li>
+                            <li><a href="/#" className="dropdown-item">Call of Duty</a></li>
                         </ul>
                     </li>
-                    <li className="nav-item"><a href="#faq" className="nav-link">Streams</a></li>
-                    <li className="nav-item"><a href="./index-ar.html" className="nav-link">Profile</a></li>
+
+                    <NavItem><a href="/#" className="nav-link">Streams</a></NavItem>
+
+
+                    <NavItem><Link to="/profile" className="nav-link">Profile</Link></NavItem>
                 </ul>
             </div>
         </div>

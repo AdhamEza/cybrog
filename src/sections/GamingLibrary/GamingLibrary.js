@@ -1,5 +1,5 @@
 import './GamingLibrary.css'
-import {GamingLibraryCard,SectionHeader,SectionWrapper} from '../../components/index'
+import {GamingLibraryCard,SectionHeader,SectionWrapper,SectionHeaderEm} from '../../components/index'
 import GamingLibraryData from '../../Data/GamingLibraryData'
 
 const GamingLibrary = () => {
@@ -12,7 +12,7 @@ const GamingLibrary = () => {
   return (
     <>
     <SectionWrapper>
-    <SectionHeader>Gaming Library</SectionHeader>
+    <SectionHeader>Your Gaming Library</SectionHeader>
       <div className='gaming-library-cards'>
         
         {cards}

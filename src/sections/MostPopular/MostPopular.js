@@ -1,5 +1,5 @@
 import './MostPopular.css'
-import {Card,SectionHeader,SectionWrapper} from '../../components/index'
+import {Card,SectionWrapper} from '../../components/index'
 import MostPopularData from '../../Data/MostPopularData'
 
 const MostPopular = () => {
@@ -10,7 +10,7 @@ const cards = MostPopularData.map(card => {
   return (
     <>
     <SectionWrapper>
-    <SectionHeader>Most Popular</SectionHeader>
+    
       <div className='most-popular-items'>
         
         {cards}

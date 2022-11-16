@@ -1,18 +1,15 @@
 import './Buttons.css'
 
-const PrimaryButton = () => {
+const PrimaryButton = (props) => {
   return (
-    <div>
-      
-    </div>
-  )
+    <div className='button primary-btn'><a href='/#'>{props.children}</a></div> 
+    )
 }
 
-const SecondaryButton = () => {
+
+const SecondaryButton = (props) => {
     return (
-      <div>
-        
-      </div>
+      <div className='button secondary-btn'><a href='/#'>{props.children}</a></div>
     )
   }
 

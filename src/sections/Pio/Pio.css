@@ -1,0 +1,14 @@
+.most-popular-clips {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  
+}
+
+.space-between {
+
+  border-top: 1px solid var(--color-primary);
+}
+
+
+
