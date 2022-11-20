@@ -2,7 +2,7 @@ import Pio_01 from '../assets/images/clip-01.jpg'
 import Pio_02 from '../assets/images/clip-02.jpg'
 import Pio_03 from '../assets/images/clip-03.jpg'
 import Pio_04 from '../assets/images/clip-04.jpg'
-import Pio_05 from '../assets/images/profile.jpg'
+
 
 const PioData = [
 

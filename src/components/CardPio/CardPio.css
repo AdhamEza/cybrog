@@ -26,3 +26,17 @@
     font-size: 14px;
     line-height: 1.5rem; 
 }
+
+.play{
+    position: absolute;
+    transform: translate(-110px, 40px);
+    width: 46px;
+    height: 46px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    line-height: 46px;
+    color: #ec6090;
+    
+}
