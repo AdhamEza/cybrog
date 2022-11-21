@@ -20,7 +20,7 @@ const Header = () => {
 
                     <NavItem><Link to="/" className="nav-link">Home</Link></NavItem>
 
-                    <NavItem><a href="/#" className="nav-link">Browse</a></NavItem>
+                    <NavItem><Link to="/browse" className="nav-link">Browse</Link></NavItem>
 
                     <li className="nav-item dropdown">
                         <a href="/#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Details</a>
@@ -31,7 +31,7 @@ const Header = () => {
                         </ul>
                     </li>
 
-                    <NavItem><a href="/#" className="nav-link">Streams</a></NavItem>
+                    <NavItem><Link to="/streams" className="nav-link">Streams</Link></NavItem>
 
 
                     <NavItem><Link to="/profile" className="nav-link">Profile</Link></NavItem>
