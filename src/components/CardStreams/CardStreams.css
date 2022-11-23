@@ -1,5 +1,5 @@
 .stream-item {
-    flex: 1 25%
+    flex: 1 05%
 }
 
 .streamcard-wrapper {
@@ -11,9 +11,12 @@
 } 
 
 .stream-item-image{
-    width: 100%;
-    border-radius: calc(var(--border-radius-primary) / 4);
-    margin-bottom: calc(var(--margin-primary) / 2);
+    width: 80%;
+    border-radius: 23px;
+    margin-bottom: 25px;
+    
+    
+
 }
 
 .avatar {
@@ -23,7 +26,7 @@
     margin-right: 15px;
 }
 
-.fa-check span{
+.fa-check {
     color: #fff;
     background-color: #ec6090;
     border-radius: 50%;
@@ -36,9 +39,24 @@
     margin-right: 3px;
 }
 
-.streamcard-sentence{
-    margin-top: 0px;
+.stream-item i{
+    font-size: 14px;
+    color: #ec6090;
+}
+
+
+.stream-item h4{
+    /* margin-top: 0px;
     margin-bottom: 0px;
     color: #fff;
     font-weight: 700;
+    text-align: center; */
+
+    margin-top: 8px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 61px;
 }
+
+
+

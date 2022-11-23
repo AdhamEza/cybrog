@@ -1,0 +1,18 @@
+.livestream-clips {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  
+}
+
+.stream-header {
+
+    margin-bottom: 50px;
+    margin-top: -25px;
+}
+
+.main-button{
+    text-align: center;
+    margin-bottom: -53px;
+    margin-top: 50px;
+}

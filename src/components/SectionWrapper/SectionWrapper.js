@@ -1,4 +1,5 @@
 import './SectionWrapper.css'
+
 const SectionWrapper = (props) => {
   return (
     <div className='section-wrapper'>
@@ -7,4 +8,7 @@ const SectionWrapper = (props) => {
   )
 }
 
+
+
 export default SectionWrapper
+
