@@ -2,14 +2,15 @@
     background-color: var(--color-darkest);
     border-radius: 23px;
     padding: 30px;
-    margin-top: var(--margin-primary);
-    flex: 0 0 auto;
-    width: 66.66666667%;
-    display: flex;
-    --bs-gutter-x: 1.5rem;
-    --bs-gutter-y: 0;
-    flex-wrap: wrap;
-    margin-right: calc(-.5 * var(--bs-gutter-x));
-    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+  
+
+.s3-wrapper {
+    border-radius: 23px;
+    background-color: var(--color-darkest);
+    padding: 30px;
+    max-height: 567px;
+    min-height: 567px;
+
 }
 

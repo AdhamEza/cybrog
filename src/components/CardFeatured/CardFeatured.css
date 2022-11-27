@@ -1,0 +1,48 @@
+ .slick-slide > div {
+    margin: 0 10px;
+  }
+  .slick-list {
+    margin: 0 -10px;
+  }
+
+ .featured-games-item {
+    flex: 1 25%;
+    border-radius: 8px;
+    overflow: hidden;
+}
+ .cardfeatured-wrapper {
+
+    padding: 20x;
+    margin: calc(var(--margin-primary) / 5);
+} 
+.featured-games-item-image {
+    border-radius: 23px;
+}
+
+.featured-games-item-content h4 {
+    font-size: 15px;
+    margin: 20px 0px;
+    display: inline-block;
+    width: 50%;
+}
+
+.featured-games-item-content span {
+    color: #666;
+    display: block;
+    margin-top: 7px;
+    font-weight: 400;
+}
+
+.featured-games-item-content ul {
+    float: right;
+    margin-top: 20px;
+    margin: 20px 0px;
+    
+}
+
+.featured-games-item-content ul li {
+    text-align: right;
+    color: #fff;
+    font-size: 14px;
+   
+}
