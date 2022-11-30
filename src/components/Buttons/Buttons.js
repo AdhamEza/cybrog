@@ -19,6 +19,13 @@ const StreamButton = (props) => {
       )
   }
 
+  const FollowButton = (props) => {
+    return (
+      <div className='button follow-btn'><a href='/profile'>{props.children}</a></div> 
+      )
+  }
+
 export default PrimaryButton
 export {SecondaryButton}
 export {StreamButton}
+export {FollowButton}

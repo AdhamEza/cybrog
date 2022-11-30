@@ -10,7 +10,7 @@ const cards = MostPopularData.map(card => {
   return (
     <>
     <SectionWrapper>
-    <SectionHeader>Most popular</SectionHeader>
+    <SectionHeader><i className='sht'>Most Popular</i> Right Now</SectionHeader>
       <div className='most-popular-items'>
         
         {cards}

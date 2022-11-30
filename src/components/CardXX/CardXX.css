@@ -1,5 +1,6 @@
 .stream-item {
-    flex: 1 05%
+    flex: 1 25%;
+    margin-bottom: 25px;
 }
 
 .streamcard-wrapper {

@@ -1,11 +1,11 @@
 import './Browse.css'
-import {LiveStreams} from '../../sections/index'
+import {BrowseSection} from '../../sections/index'
 
 const Browse = () => {
   return (
     <>
     <div>
-      <LiveStreams/>
+      <BrowseSection/>
     </div>
     
 

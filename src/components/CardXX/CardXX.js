@@ -1,7 +1,7 @@
-import './CardStreams.css'
+import './CardXX.css'
 import {FaCheck} from 'react-icons/fa'
 
-const CardStreams = (props) => {
+const CardXX = (props) => {
     return (
       <>
 
@@ -20,6 +20,6 @@ const CardStreams = (props) => {
     )
   }
   
-  export default CardStreams
+  export default CardXX
 
   

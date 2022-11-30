@@ -1,4 +1,12 @@
 .section-header h4 {
-    font-size: 36px;
-    font-weight: var(--font-weight-bold);
+    color: #ec6090;
+    font-size: 34px;
+    text-decoration: none;
+    margin-bottom: 30px;
+    font-weight: 700;
 }
+
+
+
+
+

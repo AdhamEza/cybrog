@@ -7,11 +7,7 @@ const SectionHeader = (props) => {
       </div>
   )
 }
-const SectionHeaderEm = (props) => {
-  return (
-    <div className='section-header'><em>{props.children}</em></div>
-  )
-}
+
 
 export default SectionHeader
-export {SectionHeaderEm}
+

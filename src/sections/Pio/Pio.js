@@ -50,7 +50,7 @@ const Pio = () => {
       
       <div className='space-between'></div>
 
-     <div className='title'><SectionHeader>Your Most Popular Clips</SectionHeader></div>
+     <div className='title'><SectionHeader><i className='sht'>Your Most</i> Popular Clips</SectionHeader></div>
       <div className='most-popular-clips'>
        
         {cards}

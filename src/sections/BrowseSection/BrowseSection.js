@@ -1,4 +1,4 @@
-import './LiveStreams.css'
+import './BrowseSection.css'
 import {CardStreams,CardTopDownloaded,CardFeatured,SectionWrapper,SectionHeader,S2wrapper} from '../../components/index'
 import LiveStreamsData from '../../Data/LiveStreamsData'
 import FeaturedGamesData from '../../Data/FeaturedGamesData'
@@ -11,7 +11,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 
 
-const LiveStreams = () => {
+const BrowseSection = () => {
 
   const cards = LiveStreamsData.map(card => {
       return <CardStreams key={card.id} image={card.image} avatar={card.avatar} name={card.name} sentence={card.sentence}/>
@@ -43,24 +43,25 @@ const LiveStreams = () => {
       <div className="row">
         <div className="col-lg-8">
         <S2wrapper>
-          <SectionHeader>Featured Games</SectionHeader>
+          <SectionHeader><i className='sht'>Featured</i> Games</SectionHeader>
           <Slider {...settings}>{featuredcards}</Slider>
         </S2wrapper>
           </div> 
-        </div>
+        
           
           
-          <div className="col-lg-4">
+            <div className="col-lg-4">
             <S3wrapper>
-              <SectionHeader>Top Downloaded</SectionHeader>
+              <SectionHeader><i className='sht'>Top</i> Downloaded</SectionHeader>
               {topdownloadedcards}
             </S3wrapper>
+            </div>
           </div>
       </div>
       
 
       <SectionWrapper>
-        <div className='stream-header'><SectionHeader>Most Popular Live Streams</SectionHeader></div>
+        <div className='stream-header'><SectionHeader><i className='sht'>Most Popular</i> Live Streams</SectionHeader></div>
 
         <div className='livestream-clips'>
         {cards}
@@ -76,8 +77,8 @@ const LiveStreams = () => {
       </SectionWrapper>
       </>
     </div>
-    
+
   )
 }
 
-export default LiveStreams
+export default BrowseSection

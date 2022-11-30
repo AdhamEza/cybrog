@@ -31,3 +31,23 @@
     background-color: var(--color-light);
     color: var(--color-primary);
 }
+
+.follow-btn {
+    float: right;
+    font-size: 14px;
+    padding: 12px 30px;
+    letter-spacing: 0.5px;
+    
+    
+}
+
+.follow-btn a{
+    
+    background-color: #e75e8d;
+    
+}
+
+.follow-btn a:hover {
+    background-color: var(--color-light);
+    color: var(--color-primary);
+}
