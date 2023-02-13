@@ -1,6 +1,8 @@
 import './GamingLibraryCard.css'
 import {SecondaryButton} from '../../components/index'
 
+// Gaming library component in the Home page section
+
 const GamingLibraryCard = (props) => {
   return (
     <div className='gaming-library-card'>

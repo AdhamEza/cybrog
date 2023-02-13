@@ -1,6 +1,9 @@
 import './CardXX.css'
 import {FaCheck} from 'react-icons/fa'
 
+// CardXX will contain all the details of the Most Popular Live Streams component in the Streams section, 
+// such as the image, the title etc..
+
 const CardXX = (props) => {
     return (
       <>

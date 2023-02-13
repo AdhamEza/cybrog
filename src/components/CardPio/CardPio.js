@@ -1,6 +1,10 @@
 import './CardPio.css'
 import {FaEye} from 'react-icons/fa'
 import {FaPlay} from 'react-icons/fa'
+
+// CardPio will contain all the details of the Most Popular Clips in the Profile section, such as the image, the title etc..
+
+
 const CardPio = (props) => {
   return (
     <div className='most-popular-clip'>

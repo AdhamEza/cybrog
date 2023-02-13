@@ -1,5 +1,7 @@
 import './Buttons.css'
 
+// Buttons that Im going to use more than one time with the same CSS.
+
 const PrimaryButton = (props) => {
   return (
     <div className='button primary-btn'><a href='/#'>{props.children}</a></div> 

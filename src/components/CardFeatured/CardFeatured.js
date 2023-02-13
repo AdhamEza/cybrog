@@ -2,6 +2,8 @@ import './CardFeatured.css'
 
 import {FaStar, FaDownload} from 'react-icons/fa'
 
+// CardFeatured will contain all the details of the Featured Games section, such as the image, the title etc..
+
 const CardFeatured = (props) => {
   return (
 

@@ -15,4 +15,7 @@ const LiveStreamsData = [
 { id: "stream_item_3",  image: Stream_04, avatar: St_avatar_04 , name: "GangTm",  sentence:"Live Streaming Till Morning"}
 ]
 
+// Since this is a frontend side without backend, i created a data folder to make it realistc.
+
+
 export default LiveStreamsData

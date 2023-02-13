@@ -25,4 +25,6 @@ const XX = [
 
 ]
 
+// Since this is a frontend side without backend, i created a data folder to make it realistc.
+
 export default XX

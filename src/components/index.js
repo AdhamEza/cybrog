@@ -17,3 +17,6 @@ export {default as CardFeatured} from './CardFeatured/CardFeatured'
 export {default as CardTopDownloaded} from './CardTopDownloaded/CardTopDownloaded'
 export {default as CardTopStreamers} from './CardTopStreamers/CardTopStreamers'
 export {default as CardXX} from './CardXX/CardXX'
+
+
+// in the index page i actually export all my component to use them in the sections.

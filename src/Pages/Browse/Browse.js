@@ -11,6 +11,7 @@ const Browse = () => {
 
 </>
   )
+  // Since all the data is in the components and exported to the sections, here i just import the related section.
 }
 
 export default Browse

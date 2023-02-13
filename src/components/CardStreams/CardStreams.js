@@ -1,6 +1,9 @@
 import './CardStreams.css'
 import {FaCheck} from 'react-icons/fa'
 
+// CardStreams will contain all the details of the Most Popular Live Streams in the Browse section, 
+// such as the image, the title etc..
+
 const CardStreams = (props) => {
     return (
       <>

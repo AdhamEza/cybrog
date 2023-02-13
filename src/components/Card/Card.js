@@ -1,6 +1,9 @@
 import './Card.css'
 import {FaStar, FaDownload} from 'react-icons/fa'
 
+
+// Card will contain all the details of the Most Popular section, such as the image, the title etc..
+
 const Card = (props) => {
   return (
     <div className='most-popular-item'>

@@ -2,6 +2,8 @@ import './CardTopStreamers.css'
 import {FaCheck} from 'react-icons/fa'
 import {FollowButton} from '../../components/index'
 
+// CardTopStreamers will contain all the details of the Top Streamers component in the Streams section, 
+// such as the image, the title etc..
 
 const CardTopStreamers = (props) => {
   return (

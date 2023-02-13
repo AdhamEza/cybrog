@@ -1,6 +1,9 @@
 import './CardTopDownloaded.css'
 import {FaStar, FaDownload} from 'react-icons/fa'
 
+// CardTopDownloaded will contain all the details of the Top Downloaded component in the Streams section, 
+// such as the image, the title etc..
+
 const CardTopDownloaded = (props) => {
   return (
     <div className='top-downloaded'>
